@@ -1,0 +1,13 @@
+name: Deploy Laravel Sail (Local)
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Deploy (Local) con Sail
+        run: |
+          set -e
+          cd /dev/playground/Practica-DAW/Runner
+          git pull
