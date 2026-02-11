@@ -9,5 +9,5 @@ jobs:
       - name: Deploy (Local) con Sail
         run: |
           set -e
-          cd /dev/playground/Practica-DAW/Runner
+          cd /home/marc/dev/playground/Practica-DAW/Runner
           git pull
